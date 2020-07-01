@@ -1,4 +1,5 @@
-# Flish Reader
+Flish Reader
+=================
 
 ## Project setup
 ```

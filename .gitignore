@@ -19,3 +19,11 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+.vscode
+
+npm-debug.log.*
+/node/
+node_tmp/
+/.awcache/*
+/.cache-loader/*
