@@ -1,4 +1,4 @@
-# epubook
+# Flish Reader
 
 ## Project setup
 ```
