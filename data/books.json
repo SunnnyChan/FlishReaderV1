@@ -1,0 +1,121 @@
+[
+    {
+        "id": "1",
+        "name": "硅谷增长黑客实战笔记",
+        "path": "/data/files/硅谷增长黑客实战笔记.epub",
+        "cover": "/data/cover/1.jpeg",
+        "author": "曲卉"
+    },
+    {
+        "id": "2",
+        "name": "用户增长方法论",
+        "path": "/data/files/用户增长方法论.epub",
+        "cover": "/data/cover/2.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3",
+        "name": "增长黑客：创业公司的用户与收入增长秘籍",
+        "path": "/data/files/",
+        "cover": "/data/cover/3.jpeg",
+        "author": ""
+    },
+    {
+        "id": "4",
+        "name": "深度学习入门：基于Python的理论与实现",
+        "path": "/data/files/",
+        "cover": "/data/cover/4.jpeg",
+        "author": ""
+    },
+    {
+        "id": "5",
+        "name": "冒号课堂",
+        "path": "/data/files/",
+        "cover": "/data/cover/5.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "6",
+        "name": "领域驱动设计：软件核心复杂性应对之道",
+        "path": "/data/files/",
+        "cover": "/data/cover/6.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "7",
+        "name": "统计思维：程序员数学之概率统计",
+        "path": "/data/files/",
+        "cover": "/data/cover/7.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "8",
+        "name": "Python 数据科学手册",
+        "path": "/data/files/",
+        "cover": "/data/cover/8.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "9",
+        "name": "统计学习方法",
+        "path": "/data/files/",
+        "cover": "/data/cover/9.jpeg",
+        "author": "李航"
+    },    
+    {
+        "id": "10",
+        "name": "白话机器学习算法",
+        "path": "/data/files/",
+        "cover": "/data/cover/10.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "11",
+        "name": "女士品茶",
+        "path": "/data/files/",
+        "cover": "/data/cover/11.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "12",
+        "name": "图解网站分析",
+        "path": "/data/files/",
+        "cover": "/data/cover/12.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "13",
+        "name": "Python 数据分析基础",
+        "path": "/data/files/",
+        "cover": "/data/cover/13.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "14",
+        "name": "人人都会数据分析：从生活实例学统计",
+        "path": "/data/files/",
+        "cover": "/data/cover/14.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "15",
+        "name": "Bandit Algorithms: for Website Optimization",
+        "path": "/data/files/",
+        "cover": "/data/cover/15.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "16",
+        "name": "自制搜索引擎",
+        "path": "/data/files/",
+        "cover": "/data/cover/16.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "17",
+        "name": "用户画像：方法论与工程化解决方案",
+        "path": "/data/files/",
+        "cover": "/data/cover/17.jpeg",
+        "author": "赵宏田"
+    }
+]

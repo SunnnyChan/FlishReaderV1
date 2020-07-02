@@ -23,9 +23,9 @@ module.exports = {
         port: 8080, // 开发服务器运行端口号
         proxy: null,
         // 静态资源目录
-        contentBase: [path.join(__dirname, 'files'), path.join(__dirname, 'assets')],
+        contentBase: [path.join(__dirname, 'data'), path.join(__dirname, 'assets')],
         // 静态资源访问路径
-        contentBasePublicPath: ['/files', '/assets']
+        contentBasePublicPath: ['/data', '/assets']
     },
 
     chainWebpack: config => {
@@ -34,6 +34,7 @@ module.exports = {
           .set("vue$", "vue/dist/vue.esm.js")
           .set("@", resolve("src"))
           .set("@assets", resolve("src/assets"))
+          .set("@data", resolve("src/data"))
           .set("@scss", resolve("src/assets/scss"))
           .set("@components", resolve("src/components"))
           .set("@plugins", resolve("src/plugins"))

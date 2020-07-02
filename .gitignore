@@ -27,3 +27,6 @@ npm-debug.log.*
 node_tmp/
 /.awcache/*
 /.cache-loader/*
+
+# epub files
+/data/files/*
