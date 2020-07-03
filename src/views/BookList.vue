@@ -36,7 +36,10 @@
 </template>
 
 <script>
-    // 书架页面
+  /** 
+   * 书架页面
+   * created 20200701 by sunnnychan@gmail.com
+   */
     import BooksData from '../../data/books.json'
     export default {
         data () {

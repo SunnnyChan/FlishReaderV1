@@ -33,7 +33,10 @@
 </template>
 
 <script>
-  // 阅读页面
+  /** 
+   * 阅读页面 
+   * created 20200701 by sunnnychan@gmail.com
+   */
   import BooksData from '../../data/books.json'
   import Epub from 'epubjs'
   global.ePub = Epub
@@ -68,6 +71,11 @@
         // 读取 Get 参数
         var bookId = this.$route.params.id
         // 查找书籍的路径，加载
+        // 因为路径的问题，大概花费了三天事件，也是因为对前端技术不熟悉
+        // 这里 Epub 创建对象的时候需要传入一个 书籍文件的路径，可以是一个本地相对路径，或者是一个 URL
+        // 但是实际上这个 ”本地相对路径“ ，Epub的处理也是通过 http方式访问的，只不过默认是使用本机作为host去访问，
+        // vue-cli 2 会默认配置一个本地的静态服务器，而我直接使用的当前最新的 vue-cli 4，需要自己配置一个静态服务器
+        // 还是要根据代码一步一步的去调试，而不是猜测，或给问题设置前提，虽然花了三天时间，但是这个过程让我学会了前端脚本的调试，收获还是挺大的
         for (var bookIndex in BooksData) {
           if (BooksData[bookIndex].id == bookId) {
             this.book = new Epub(BooksData[bookIndex].path)
