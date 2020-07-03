@@ -1,10 +1,10 @@
 <template>
-  <div style="overflow-y: auto;">
+  <div class="body">
     <div id="logo">
         <img alt="logo" src="@assets/logo.png"/>
     </div>
     <div class="page-home">
-        <div id="main">
+        <div class="main">
             <ul class="book-list">
                 <li class="item" v-for="book in books" :key="book.id">
                     <div id="book">
@@ -76,10 +76,15 @@
         background-color: #e0e3eb;
         padding: 0.6em 0;
     }
+    .main {
+        overflow-y: auto;
+        height: auto;
+    }
     .book-list{
         @include clearfix;
         max-width: 1000px;
         margin: 0 auto; 
+        height: auto;
         .item {
             position: relative;
             float: left;
