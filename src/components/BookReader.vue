@@ -21,10 +21,12 @@
       </div>
       <div id="bookView" class="bookView"></div>
     </div>
+    <!--
     <Keypress key-event="keydown" :key-code="39" @success="nextPage" />
     <Keypress key-event="keydown" :key-code="37" @success="prevPage" />
     <Keypress key-event="keydown" :key-code="40" @success="nextPage" />
     <Keypress key-event="keydown" :key-code="38" @success="prevPage" />
+    -->
   </div>
 </template>
 
@@ -34,14 +36,29 @@
   global.ePub = Epub
 
   export default {
-    components: {
-      Keypress: () => import('vue-keypress')
-    },
+    //components: {
+    //  Keypress: () => import('vue-keypress')
+    //},
     data () {
       return {
         content: [
         ]
       }
+    },
+    // created:在模板渲染成html前调用，即通常初始化某些属性值，然后再渲染成视图。
+    created(){
+      var _this = this;
+      //添加监听按键事件
+      document.addEventListener("keydown", _this.turnPage);
+    },
+    //mounted:在模板渲染成html后调用，通常是初始化页面完成后，再对html的dom节点进行一些需要的操作。
+    mounted() {
+      this.showEpub()
+    },
+    destroyed() {
+      var _this = this;
+      //移除监听按键事件
+      document.removeEventListener("keydown", _this.turnPage);
     },
     methods: {
       // 电子书的解析和渲染
@@ -73,10 +90,10 @@
 
         // 生成目录
         this.book.loaded.navigation.then((toc) =>  {
-          console.log(toc)
+          // console.log(toc)
           var tocNew = [];
           toc.forEach((chapter) => {
-              console.log(chapter)
+              // console.log(chapter)
               tocNew.push(chapter)
               if (chapter.subitems && chapter.subitems.length > 0) {
                 tocNew = tocNew.concat(chapter.subitems)
@@ -91,6 +108,14 @@
               this.content.push(entry)
           })
         })
+      },
+      turnPage(e) {
+        var keyNum = window.event ? e.keyCode : e.which; //获取被按下的键值
+        if (keyNum == 39) {
+          this.nextPage()
+        } else if (keyNum == 37){
+          this.prevPage()
+        }
       },
       // 上一页
       prevPage() {
@@ -108,9 +133,6 @@
         this.rendition.display(url)
       }
     },
-    mounted() {
-      this.showEpub()
-    }
   }
 </script>
 
