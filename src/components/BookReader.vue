@@ -19,7 +19,7 @@
     <div id="main" class="closed">
       <div id="titlebar">
       </div>
-      <div id="bookView" class="bookView"></div>
+      <div id="bookView" class="bookView" ref="ct"></div>
     </div>
     <!--
     <Keypress key-event="keydown" :key-code="39" @success="nextPage" />
@@ -47,23 +47,24 @@
     },
     // created:在模板渲染成html前调用，即通常初始化某些属性值，然后再渲染成视图。
     created(){
-      var _this = this;
       //添加监听按键事件
-      document.addEventListener("keydown", _this.turnPage);
+      document.addEventListener("keydown", this.turnPage);
     },
     //mounted:在模板渲染成html后调用，通常是初始化页面完成后，再对html的dom节点进行一些需要的操作。
     mounted() {
       this.showEpub()
     },
     destroyed() {
-      var _this = this;
+      //var _this = this;
       //移除监听按键事件
-      document.removeEventListener("keydown", _this.turnPage);
+      document.removeEventListener("keydown", this.turnPage);
     },
     methods: {
       // 电子书的解析和渲染
       showEpub() {
+        // 读取 Get 参数
         var bookId = this.$route.params.id
+        // 查找书籍的路径，加载
         for (var bookIndex in BooksData) {
           if (BooksData[bookIndex].id == bookId) {
             this.book = new Epub(BooksData[bookIndex].path)
@@ -78,20 +79,24 @@
           //height: "100%",
           method: 'default'
         });
+
         this.displayed = this.rendition.display();
         //this.rendition.themes.fontSize("100%");
+        // 下面这个字体的效果看着舒服
         this.rendition.themes.override("font-family", "Consolas, FangSong, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei");
-        this.book.ready.then(() => {
+        //this.book.ready.then(() => {
           // 生成目录
-          this.navigation = this.book.navigation;
+          //this.navigation = this.book.navigation;
           // 生成Locations对象
-          return this.book.locations.generate();
-        })
+          //return this.book.locations.generate();
+        //})
 
         // 生成目录
+        // 以下的处理方式，只处理了两级目录，这样做简单，效果也还行，先这么用着
         this.book.loaded.navigation.then((toc) =>  {
           // console.log(toc)
           var tocNew = [];
+          // 先把目录整理成 一维
           toc.forEach((chapter) => {
               // console.log(chapter)
               tocNew.push(chapter)
@@ -99,6 +104,7 @@
                 tocNew = tocNew.concat(chapter.subitems)
               }
           })
+          // 逐条处理目录项
           tocNew.forEach((chapter) => {
               var entry = {
                 "id" : "toc-" + chapter.id,
@@ -108,7 +114,12 @@
               this.content.push(entry)
           })
         })
+        // 为什么这里要设置 rendition 监听事件？
+        // 因为，在created中设置了 document 监听事件，但是我发现在 foucs（点击） 到书页时，键盘事件会失效
+        // 是因为，rendition 在 document 之前捕获了事件
+        this.rendition.on('keydown', this.turnPage)
       },
+      // 根据事件来跳转书页
       turnPage(e) {
         var keyNum = window.event ? e.keyCode : e.which; //获取被按下的键值
         if (keyNum == 39) {
@@ -129,6 +140,8 @@
           this.rendition.next()
         }
       },
+      // 根据 epub 的 Url 来处理跳转书页
+      // 主要用在 点击目录
       pageOn(url) {
         this.rendition.display(url)
       }
