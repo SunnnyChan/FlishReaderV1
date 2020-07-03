@@ -23,7 +23,7 @@
     {
         "id": "4",
         "name": "深度学习入门：基于Python的理论与实现",
-        "path": "/data/files/",
+        "path": "/data/files/深度学习入门-基于Python的理论与实现.epub",
         "cover": "/data/cover/4.jpeg",
         "author": ""
     },
@@ -37,42 +37,42 @@
     {
         "id": "6",
         "name": "领域驱动设计：软件核心复杂性应对之道",
-        "path": "/data/files/",
+        "path": "/data/files/领域驱动设计.epub",
         "cover": "/data/cover/6.jpeg",
         "author": ""
     },    
     {
         "id": "7",
         "name": "统计思维：程序员数学之概率统计",
-        "path": "/data/files/",
+        "path": "/data/files/统计思维-程序员数学之概率统计.epub",
         "cover": "/data/cover/7.jpeg",
         "author": ""
     },    
     {
         "id": "8",
         "name": "Python 数据科学手册",
-        "path": "/data/files/",
+        "path": "/data/files/Python数据科学手册.epub",
         "cover": "/data/cover/8.jpeg",
         "author": ""
     },    
     {
         "id": "9",
         "name": "统计学习方法",
-        "path": "/data/files/",
+        "path": "/data/files/统计学习方法.epub",
         "cover": "/data/cover/9.jpeg",
         "author": "李航"
     },    
     {
         "id": "10",
         "name": "白话机器学习算法",
-        "path": "/data/files/",
+        "path": "/data/files/白话机器学习算法.epub",
         "cover": "/data/cover/10.jpeg",
         "author": ""
     },    
     {
         "id": "11",
         "name": "女士品茶",
-        "path": "/data/files/",
+        "path": "/data/files/女士品茶.epub",
         "cover": "/data/cover/11.jpeg",
         "author": ""
     },    
@@ -86,14 +86,14 @@
     {
         "id": "13",
         "name": "Python 数据分析基础",
-        "path": "/data/files/",
+        "path": "/data/files/Python数据分析基础.epub",
         "cover": "/data/cover/13.jpeg",
         "author": ""
     },    
     {
         "id": "14",
         "name": "人人都会数据分析：从生活实例学统计",
-        "path": "/data/files/",
+        "path": "/data/files/人人都会数据分析-从生活实例学统计.epub",
         "cover": "/data/cover/14.jpeg",
         "author": ""
     },    
@@ -123,6 +123,13 @@
         "name": "超级转化率",
         "path": "/data/files/超级转化率.epub",
         "cover": "/data/cover/18.jpeg",
+        "author": ""
+    },
+    {
+        "id": "19",
+        "name": "重构：改善既有代码的设计-第2版",
+        "path": "/data/files/重构-改善既有代码的设计-第2版.epub",
+        "cover": "/data/cover/19.jpeg",
         "author": ""
     }
 ]

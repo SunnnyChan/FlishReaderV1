@@ -127,7 +127,8 @@
         })
         // 为什么这里要设置 rendition 监听事件？
         // 因为，在created中设置了 document 监听事件，但是我发现在 foucs（点击） 到书页时，键盘事件会失效
-        // 是因为，rendition 在 document 之前捕获了事件
+        // 是因为，rendition 在 document 之前捕获了事件 
+        // 这里 https://github.com/futurepress/epub.js/issues/910 有关于这个问题的描述  
         this.rendition.on('keydown', this.turnPage)
       },
       // 根据事件来跳转书页
