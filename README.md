@@ -1,13 +1,13 @@
 飞鱼读书 (Flish Reader)
 =================
 
-![](src/assets/logo.png)
+![](src/assets/logo.png)  
 
 一个基于 Vue 的 Web 读书平台，我主要它来学习下前端技术，顺便解决下自己方便阅读电子书的需求。  
 
-![](doc/pic/flish-read-booklist.png)
+![](doc/pic/flish-read-booklist.png)  
 
-![](doc/pic/flish-read-bookreader.png)
+![](doc/pic/flish-read-bookreader.png)  
 
 ## 使用  
 
