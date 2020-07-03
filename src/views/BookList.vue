@@ -34,8 +34,9 @@
     </div>
   </div>
 </template>
+
 <script>
-    // import Vue from 'vue'
+    // 书架页面
     import BooksData from '../../data/books.json'
     export default {
         data () {
@@ -60,6 +61,7 @@
         }
     }
 </script>
+
 <style lang="scss" scoped>
     @import "@assets/scss/var";
 

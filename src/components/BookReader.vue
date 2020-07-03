@@ -33,6 +33,7 @@
 </template>
 
 <script>
+  // 阅读页面
   import BooksData from '../../data/books.json'
   import Epub from 'epubjs'
   global.ePub = Epub
