@@ -21,7 +21,9 @@
       </div>
       <div id="bookView" class="bookView" ref="ct"></div>
     </div>
-    <!--
+    <!-- Keypress （vue-keypress 项目）是一个 处理按键事件的库，使用简单，
+    最后我采用了document.addEventListener，主要是应为出现了有些情况下不能响应事件的现象，
+    开始我怀疑是库的问题，但是实际并不是，主要问题是，一些场景下，事件被提前拦截了
     <Keypress key-event="keydown" :key-code="39" @success="nextPage" />
     <Keypress key-event="keydown" :key-code="37" @success="prevPage" />
     <Keypress key-event="keydown" :key-code="40" @success="nextPage" />
