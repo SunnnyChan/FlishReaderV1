@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow-y: auto;">
     <div id="logo">
         <img alt="logo" src="@assets/logo.png"/>
     </div>
