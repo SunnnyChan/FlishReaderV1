@@ -63,7 +63,7 @@
             }
         },
         beforeCreate () {
-            //document.querySelector('body').setAttribute('style', 'overflow-y:scroll;overflow:scroll;')
+            document.querySelector('body').setAttribute('style', 'overflow-y:scroll;overflow:scroll;overflow-x:hidden;')
         },
     }
 </script>

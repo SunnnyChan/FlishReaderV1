@@ -131,5 +131,41 @@
         "path": "/data/files/重构-改善既有代码的设计-第2版.epub",
         "cover": "/data/cover/19.jpeg",
         "author": ""
+    },
+    {
+        "id": "20",
+        "name": "精益数据分析",
+        "path": "/data/files/精益数据分析.epub",
+        "cover": "/data/cover/20.jpeg",
+        "author": ""
+    },
+    {
+        "id": "21",
+        "name": "黑天鹅：如何应对不可预知的未来",
+        "path": "/data/files/黑天鹅-如何应对不可预知的未来.epub",
+        "cover": "/data/cover/21.jpeg",
+        "author": ""
+    },
+    {
+        "id": "22",
+        "name": "从一到无穷大：科学中的事实和臆测",
+        "path": "/data/files/从一到无穷大-科学中的事实和臆测.epub",
+        "cover": "/data/cover/22.jpeg",
+        "author": ""
+    },
+    {
+        "id": "23",
+        "name": "利用Python进行数据分析",
+        "path": "/data/files/利用Python进行数据分析.epub",
+        "cover": "/data/cover/23.jpeg",
+        "author": ""
+    },
+    {
+        "id": "24",
+        "name": "定位：有史以来对美国营销影响最大的观念",
+        "path": "/data/files/定位-有史以来对美国营销影响最大的观念.epub",
+        "cover": "/data/cover/24.jpeg",
+        "author": ""
     }
+    
 ]
