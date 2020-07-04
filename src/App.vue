@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <div>
       <router-view/>
     </div>
@@ -20,4 +20,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
 </script>
+<style scoped>
+.app {
+  overflow-y: scroll
+}
+</style>>
 

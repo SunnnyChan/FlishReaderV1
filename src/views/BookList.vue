@@ -61,7 +61,10 @@
                 // }
                 this.books = BooksData;
             }
-        }
+        },
+        beforeCreate () {
+            document.querySelector('body').setAttribute('style', 'overflow-y:scroll;overflow:scroll;')
+        },
     }
 </script>
 
