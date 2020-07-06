@@ -8,12 +8,14 @@
             </a>
           </div>
         </div>
-        <div id="tocView" class="view">
-          <ul>
-            <li v-for="entry in content" :key="entry.id" :id="entry.id" class="list_item">
-              <a class="toc_link" href="#" style="font-size:14px; text-decoration:none; color:rgb(107, 100, 100)" v-on:click="pageOn(entry.url)">{{ entry.textContent }}</a>
-            </li>
-          </ul>
+        <div class="book-content">
+          <div id="tocView" class="view">
+            <ul>
+              <li v-for="entry in content" :key="entry.id" :id="entry.id" class="list_item">
+                <a class="toc_link" href="#" style="font-size:14px; text-decoration:none; color:rgb(107, 100, 100)" v-on:click="pageOn(entry.url)">{{ entry.textContent }}</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </div>
     <div id="main" class="closed">
@@ -95,6 +97,7 @@
         //this.rendition.themes.fontSize("100%");
         // 下面这个字体的效果看着舒服
         this.rendition.themes.override("font-family", "Consolas, FangSong, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei");
+        //this.rendition.themes.override("background-color", "rgb(248, 240, 217)");
         //this.book.ready.then(() => {
           // 生成目录
           //this.navigation = this.book.navigation;
@@ -166,6 +169,7 @@
 @import '@assets/scss/normalize';
 @import '@assets/scss/popup';
 
+
 .body {
   font-size: 15px;
 }
@@ -180,5 +184,9 @@
   top: 0.25rem;
   align-items: center;
   //padding: 1.25rem 1.25rem;
+}
+#main {
+  //background: rgb(248, 240, 217);
+  background: rgb(248, 240, 217);
 }
 </style>

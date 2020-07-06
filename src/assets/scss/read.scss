@@ -156,7 +156,7 @@
     -moz-transition: -moz-transform .5s;
     -ms-transition: -moz-transform .5s;
   
-    overflow: hidden;
+    overflow: auto;
   }
   
   #sidebar.open {
@@ -299,7 +299,7 @@
   #tocView,
   #bookmarksView {
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     min-width: 300px;
     width: 25%;
     height: 100%;
