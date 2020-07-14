@@ -10,9 +10,8 @@
                     <div id="book">
                         <div class="book-img">
                             <router-link class="link" :to="'/books/' + book.id" :title="book.name" v-if="book.type === 'epub'">
-                                <img class="cover" :src="book.cover" v-if="book.cover" />
-                                <div class="cover-text" v-if="!book.cover">{{ book.name }}</div>
-                              <!-- <a class="remove" href="#" @click.stop.prevent="download(book)">下载</a> -->
+                              <img class="cover" :src="book.cover" v-if="book.cover" />
+                              <div class="cover-text" v-if="!book.cover">{{ book.name }}</div>
                             </router-link>
                             <a class="link" :href="book.path" v-if="book.type === 'link'">
                               <img class="cover" :src="book.cover" v-if="book.cover" />
@@ -21,7 +20,7 @@
                          </div >
                         <div class="name">{{ book.name }}</div>
                     <!--<a class="remove" href="#" @click.stop.prevent="remove(book)">删除</a>-->
-                    <!-- <div class="author">{{ book.author }}</div> -->
+                      <div class="name">{{ book.author }}</div>
                     </div>
                 </li>
             </ul>
