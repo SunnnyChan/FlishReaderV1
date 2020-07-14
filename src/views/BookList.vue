@@ -44,7 +44,7 @@
    * 书架页面
    * created 20200701 by sunnnychan@gmail.com
    */
-    import BooksData from '../../data/books.json'
+    import { getBooksData } from '@utils/books-data';
     export default {
         data () {
             return {
@@ -58,18 +58,15 @@
         },
         methods: {
             init() {
-                //console.log(BooksData)
-                // for (var bookItem in BooksData) {
-                //    Vue.set(BooksData[bookItem], "cover", url)
-                //    this.books = BooksData;
-                // }
-                this.books = BooksData;
+                this.books = getBooksData();
+                console.log(this.books)
             }
         },
         beforeCreate () {
             document.querySelector('body').setAttribute('style', 'overflow-y:scroll;overflow:scroll;overflow-x:hidden;')
         },
     }
+
 </script>
 
 <style lang="scss" scoped>

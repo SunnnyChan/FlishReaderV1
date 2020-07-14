@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1000",
+        "class" : "Java",
+        "name": "On Java 8",
+        "type": "link",
+        "path": "https://lingcoder.github.io/OnJava8/#/sidebar",
+        "cover": "",
+        "author": "Bruce Eckel"
+    },
+    {
+        "id": "1001",
+        "class" : "Java",
+        "name": "Effective Java 第三版",
+        "type": "link",
+        "path": "https://www.jianshu.com/p/fc7b69608954",
+        "cover": "/data/files/java/cover/effective-java-3.jpg",
+        "author": "Joshua Bloch"
+    },
+    {
+        "id": "1002",
+        "class" : "Java",
+        "name": "Java并发编程实战",
+        "type": "epub",
+        "path": "/data/files/java/Java并发编程实战.epub",
+        "cover": "/data/files/java/cover/java-concurrency-in-practice.jpg",
+        "author": ""
+    },
+    {
+        "id": "1003",
+        "class" : "Java",
+        "name": "深入理解Java虚拟机：JVM高级特性与最佳实践",
+        "type": "epub",
+        "path": "/data/files/java/深入理解Java虚拟机-JVM高级特性与最佳实践.epub",
+        "cover": "/data/files/java/cover/understanding-the-jvm.jpeg",
+        "author": ""
+    },
+    {
+        "id": "1004",
+        "class" : "Java",
+        "name": "Java编程的逻辑",
+        "type": "epub",
+        "path": "/data/files/java/Java编程的逻辑.epub",
+        "cover": "/data/files/java/cover/logic-of-java-programming.jpg",
+        "author": ""
+    }
+]
