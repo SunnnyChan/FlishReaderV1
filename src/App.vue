@@ -21,8 +21,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 </script>
 <style scoped>
-.app {
-  overflow-y: scroll
-}
+
 </style>>
 

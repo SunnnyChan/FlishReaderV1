@@ -2,6 +2,7 @@
     {
         "id": "1",
         "name": "硅谷增长黑客实战笔记",
+        "type": "epub",
         "path": "/data/files/硅谷增长黑客实战笔记.epub",
         "cover": "/data/cover/1.jpeg",
         "author": "曲卉"
@@ -9,6 +10,7 @@
     {
         "id": "2",
         "name": "用户增长方法论",
+        "type": "epub",
         "path": "/data/files/用户增长方法论.epub",
         "cover": "/data/cover/2.jpeg",
         "author": ""
@@ -16,6 +18,7 @@
     {
         "id": "3",
         "name": "增长黑客：创业公司的用户与收入增长秘籍",
+        "type": "epub",
         "path": "/data/files/增长黑客-创业公司的用户与收入增长秘籍.epub",
         "cover": "/data/cover/3.jpeg",
         "author": ""
@@ -23,6 +26,7 @@
     {
         "id": "4",
         "name": "深度学习入门：基于Python的理论与实现",
+        "type": "epub",
         "path": "/data/files/深度学习入门-基于Python的理论与实现.epub",
         "cover": "/data/cover/4.jpeg",
         "author": ""
@@ -30,6 +34,7 @@
     {
         "id": "5",
         "name": "冒号课堂",
+        "type": "epub",
         "path": "/data/files/",
         "cover": "/data/cover/5.jpeg",
         "author": ""
@@ -37,6 +42,7 @@
     {
         "id": "6",
         "name": "领域驱动设计：软件核心复杂性应对之道",
+        "type": "epub",
         "path": "/data/files/领域驱动设计.epub",
         "cover": "/data/cover/6.jpeg",
         "author": ""
@@ -44,6 +50,7 @@
     {
         "id": "7",
         "name": "统计思维：程序员数学之概率统计",
+        "type": "epub",
         "path": "/data/files/统计思维-程序员数学之概率统计.epub",
         "cover": "/data/cover/7.jpeg",
         "author": ""
@@ -51,6 +58,7 @@
     {
         "id": "8",
         "name": "Python 数据科学手册",
+        "type": "epub",
         "path": "/data/files/Python数据科学手册.epub",
         "cover": "/data/cover/8.jpeg",
         "author": ""
@@ -58,6 +66,7 @@
     {
         "id": "9",
         "name": "统计学习方法",
+        "type": "epub",
         "path": "/data/files/统计学习方法.epub",
         "cover": "/data/cover/9.jpeg",
         "author": "李航"
@@ -65,6 +74,7 @@
     {
         "id": "10",
         "name": "白话机器学习算法",
+        "type": "epub",
         "path": "/data/files/白话机器学习算法.epub",
         "cover": "/data/cover/10.jpeg",
         "author": ""
@@ -72,6 +82,7 @@
     {
         "id": "11",
         "name": "女士品茶",
+        "type": "epub",
         "path": "/data/files/女士品茶.epub",
         "cover": "/data/cover/11.jpeg",
         "author": ""
@@ -79,6 +90,7 @@
     {
         "id": "12",
         "name": "图解网站分析：让流量倍增的网站优化方法",
+        "type": "epub",
         "path": "/data/files/图解网站分析.epub",
         "cover": "/data/cover/12.jpeg",
         "author": ""
@@ -86,6 +98,7 @@
     {
         "id": "13",
         "name": "Python 数据分析基础",
+        "type": "epub",
         "path": "/data/files/Python数据分析基础.epub",
         "cover": "/data/cover/13.jpeg",
         "author": ""
@@ -93,6 +106,7 @@
     {
         "id": "14",
         "name": "人人都会数据分析：从生活实例学统计",
+        "type": "epub",
         "path": "/data/files/人人都会数据分析-从生活实例学统计.epub",
         "cover": "/data/cover/14.jpeg",
         "author": ""
@@ -100,12 +114,14 @@
     {
         "id": "15",
         "name": "Bandit Algorithms: for Website Optimization",
+        "type": "epub",
         "path": "/data/files/",
         "cover": "/data/cover/15.jpeg",
         "author": ""
     },    
     {
         "id": "16",
+        "type": "epub",
         "name": "自制搜索引擎",
         "path": "/data/files/",
         "cover": "/data/cover/16.jpeg",
@@ -113,6 +129,7 @@
     },    
     {
         "id": "17",
+        "type": "epub",
         "name": "用户画像：方法论与工程化解决方案",
         "path": "/data/files/用户画像.epub",
         "cover": "/data/cover/17.jpeg",
@@ -121,6 +138,7 @@
     {
         "id": "18",
         "name": "超级转化率",
+        "type": "epub",
         "path": "/data/files/超级转化率.epub",
         "cover": "/data/cover/18.jpeg",
         "author": ""
@@ -128,6 +146,7 @@
     {
         "id": "19",
         "name": "重构：改善既有代码的设计-第2版",
+        "type": "epub",
         "path": "/data/files/重构-改善既有代码的设计-第2版.epub",
         "cover": "/data/cover/19.jpeg",
         "author": ""
@@ -135,6 +154,7 @@
     {
         "id": "20",
         "name": "精益数据分析",
+        "type": "epub",
         "path": "/data/files/精益数据分析.epub",
         "cover": "/data/cover/20.jpeg",
         "author": ""
@@ -142,6 +162,7 @@
     {
         "id": "21",
         "name": "黑天鹅：如何应对不可预知的未来",
+        "type": "epub",
         "path": "/data/files/黑天鹅-如何应对不可预知的未来.epub",
         "cover": "/data/cover/21.jpeg",
         "author": ""
@@ -149,6 +170,7 @@
     {
         "id": "22",
         "name": "从一到无穷大：科学中的事实和臆测",
+        "type": "epub",
         "path": "/data/files/从一到无穷大-科学中的事实和臆测.epub",
         "cover": "/data/cover/22.jpeg",
         "author": ""
@@ -156,6 +178,7 @@
     {
         "id": "23",
         "name": "利用Python进行数据分析",
+        "type": "epub",
         "path": "/data/files/利用Python进行数据分析.epub",
         "cover": "/data/cover/23.jpeg",
         "author": ""
@@ -163,9 +186,54 @@
     {
         "id": "24",
         "name": "定位：有史以来对美国营销影响最大的观念",
+        "type": "epub",
         "path": "/data/files/定位-有史以来对美国营销影响最大的观念.epub",
         "cover": "/data/cover/24.jpeg",
         "author": ""
+    },
+    {
+        "id": "1000",
+        "class" : "Java",
+        "name": "On Java 8",
+        "type": "link",
+        "path": "https://lingcoder.github.io/OnJava8/#/sidebar",
+        "cover": "",
+        "author": "Bruce Eckel"
+    },
+    {
+        "id": "1001",
+        "class" : "Java",
+        "name": "Effective Java 第三版",
+        "type": "link",
+        "path": "https://www.jianshu.com/p/fc7b69608954",
+        "cover": "/data/cover/java/effective-java-3.jpg",
+        "author": "Joshua Bloch"
+    },
+    {
+        "id": "1002",
+        "class" : "Java",
+        "name": "Java并发编程实战",
+        "type": "epub",
+        "path": "/data/files/java/Java并发编程实战.epub",
+        "cover": "/data/cover/java/java-concurrency-in-practice.jpg",
+        "author": ""
+    },
+    {
+        "id": "1003",
+        "class" : "Java",
+        "name": "深入理解Java虚拟机：JVM高级特性与最佳实践",
+        "type": "epub",
+        "path": "/data/files/java/深入理解Java虚拟机-JVM高级特性与最佳实践.epub",
+        "cover": "/data/cover/java/understanding-the-jvm.jpeg",
+        "author": ""
+    },
+    {
+        "id": "1004",
+        "class" : "Java",
+        "name": "Java编程的逻辑",
+        "type": "epub",
+        "path": "/data/files/java/Java编程的逻辑.epub",
+        "cover": "/data/cover/java/logic-of-java-programming.jpg",
+        "author": ""
     }
-    
 ]

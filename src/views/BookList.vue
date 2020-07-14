@@ -9,11 +9,15 @@
                 <li class="item" v-for="book in books" :key="book.id">
                     <div id="book">
                         <div class="book-img">
-                            <router-link class="link" :to="'/books/' + book.id" :title="book.name">
-                            <!-- <a class="remove" href="#" @click.stop.prevent="download(book)">下载</a> -->
-                            <img class="cover" :src="book.cover" v-if="book.cover" />
-                            <div class="cover-text" v-if="!book.cover">没有封面</div>
+                            <router-link class="link" :to="'/books/' + book.id" :title="book.name" v-if="book.type === 'epub'">
+                                <img class="cover" :src="book.cover" v-if="book.cover" />
+                                <div class="cover-text" v-if="!book.cover">{{ book.name }}</div>
+                              <!-- <a class="remove" href="#" @click.stop.prevent="download(book)">下载</a> -->
                             </router-link>
+                            <a class="link" :href="book.path" v-if="book.type === 'link'">
+                              <img class="cover" :src="book.cover" v-if="book.cover" />
+                              <div class="cover-text" v-if="!book.cover">{{ book.name }}</div>
+                            </a>
                          </div >
                         <div class="name">{{ book.name }}</div>
                     <!--<a class="remove" href="#" @click.stop.prevent="remove(book)">删除</a>-->
@@ -80,7 +84,7 @@
         padding: 0.6em 0;
     }
     .main {
-        overflow-y: auto;
+        //overflow-y: auto;
         height: auto;
     }
     .book-list{
