@@ -1,4 +1,5 @@
 import BooksData from '../../data/json/books.json'
+import Literature from '../../data/json/literature.json'
 import JavaBooksData from '../../data/json/java.json'
 import EmBooksData from '../../data/json/E-M.json'
 import Programming from '../../data/json/programming.json'
@@ -10,7 +11,8 @@ import Ai from '../../data/json/ai.json'
  * 获取所有的书籍数据（分类）
  */
 export function getBooksData() {
-    var books = mergeJson(JavaBooksData, EmBooksData)
+    var books = mergeJson(Literature, EmBooksData)
+    books = mergeJson(JavaBooksData, books)
     books = mergeJson(Ai, books)
     books = mergeJson(Programming, books)
     books = mergeJson(GrowthHacking, books)
