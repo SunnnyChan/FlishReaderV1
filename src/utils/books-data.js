@@ -1,12 +1,20 @@
-import BooksData from '../../data/books.json'
-import JavaBooksData from '../../data/java.json'
-import EmBooksData from '../../data/E-M.json'
+import BooksData from '../../data/json/books.json'
+import JavaBooksData from '../../data/json/java.json'
+import EmBooksData from '../../data/json/E-M.json'
+import Programming from '../../data/json/programming.json'
+import GrowthHacking from '../../data/json/growth-hacking.json'
+import DataScience from '../../data/json/data-science.json'
+import Ai from '../../data/json/ai.json'
 
 /**
  * 获取所有的书籍数据（分类）
  */
 export function getBooksData() {
     var books = mergeJson(JavaBooksData, EmBooksData)
+    books = mergeJson(Ai, books)
+    books = mergeJson(Programming, books)
+    books = mergeJson(GrowthHacking, books)
+    books = mergeJson(DataScience, books)
     return mergeJson(BooksData, books)
 }
 

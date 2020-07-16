@@ -1,0 +1,43 @@
+[
+    {
+        "id": "3000",
+        "class" : "Programming",
+        "name": "A Philosophy of Software Design",
+        "type": "epub",
+        "path": "/data/files/programming/A-Philosophy-of-Software-Design.epub",
+        "cover": "/data/files/programming/cover/3000-A-Philosophy-of-Software-Design.jpeg",
+        "author": "John Ousterhout"
+    },    
+    {
+        "id": "3001",
+        "name": "领域驱动设计：软件核心复杂性应对之道",
+        "type": "epub",
+        "path": "/data/files/programming/领域驱动设计.epub",
+        "cover": "/data/files/programming/cover/3001-DDD.jpeg",
+        "author": "Eric Evans"
+    },
+    {
+        "id": "3002",
+        "name": "重构：改善既有代码的设计-第2版",
+        "type": "epub",
+        "path": "/data/files/programming/重构-改善既有代码的设计-第2版.epub",
+        "cover": "/data/files/programming/cover/3002-Refactor.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3003",
+        "name": "冒号课堂",
+        "type": "link",
+        "path": "https://sunnnychan.github.io/colon-classroom/",
+        "cover": "/data/files/programming/cover/3003-colon-classroom.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3004",
+        "type": "epub",
+        "name": "自制搜索引擎",
+        "path": "/data/files/programming/",
+        "cover": "/data/files/programming/cover/3004.jpeg",
+        "author": ""
+    }
+]
