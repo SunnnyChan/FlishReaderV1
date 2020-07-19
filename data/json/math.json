@@ -1,0 +1,42 @@
+[
+    {
+        "id": "11000",
+        "name": "概率导论-第二版",
+        "type": "epub",
+        "path": "/data/files/math/概率导论-第二版.epub",
+        "cover": "/data/files/math/cover/11000.jpg",
+        "author": ""
+    },
+    {
+        "id": "11001",
+        "name": "普林斯顿微积分读本-统计学丛书",
+        "type": "epub",
+        "path": "/data/files/math/普林斯顿微积分读本-统计学丛书.epub",
+        "cover": "/data/files/math/cover/11001.jpeg",
+        "author": ""
+    },
+    {
+        "id": "11002",
+        "name": "简单统计学",
+        "type": "epub",
+        "path": "/data/files/math/简单统计学.epub",
+        "cover": "/data/files/math/cover/11002.jpeg",
+        "author": ""
+    },
+    {
+        "id": "11003",
+        "name": "统计学的世界-第8版",
+        "type": "epub",
+        "path": "/data/files/math/统计学的世界-第8版.epub",
+        "cover": "/data/files/math/cover/11003.jpeg",
+        "author": ""
+    },
+    {
+        "id": "11004",
+        "name": "统计学关我什么事-生活中的极简统计学",
+        "type": "epub",
+        "path": "/data/files/math/统计学关我什么事-生活中的极简统计学.epub",
+        "cover": "/data/files/math/cover/11004.jpg",
+        "author": ""
+    }
+]

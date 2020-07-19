@@ -33,11 +33,27 @@
         "author": ""
     },
     {
-        "id": "3004",
+        "id": "3100",
+        "type": "epub",
+        "name": "设计模式之禅-第2版",
+        "path": "/data/files/programming/设计模式之禅-第2版.epub",
+        "cover": "/data/files/programming/cover/3100.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3101",
+        "type": "epub",
+        "name": "设计模式解析-第2版",
+        "path": "/data/files/programming/设计模式解析-第2版.epub",
+        "cover": "/data/files/programming/cover/3101.jpg",
+        "author": ""
+    },
+    {
+        "id": "3904",
         "type": "epub",
         "name": "自制搜索引擎",
         "path": "/data/files/programming/",
-        "cover": "/data/files/programming/cover/3004.jpeg",
+        "cover": "/data/files/programming/cover/3904.jpeg",
         "author": ""
     }
 ]

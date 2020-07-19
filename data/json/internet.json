@@ -6,5 +6,13 @@
         "path": "/data/files/internet/运营之光-2.0.epub",
         "cover": "/data/files/internet/cover/10000.jpeg",
         "author": ""
+    },
+    {
+        "id": "10001",
+        "name": "黑客与画家-硅谷创业之父Paul Graham文集",
+        "type": "epub",
+        "path": "/data/files/internet/黑客与画家-硅谷创业之父PaulGraham文集.epub",
+        "cover": "/data/files/internet/cover/10001.jpg",
+        "author": ""
     }
 ]
