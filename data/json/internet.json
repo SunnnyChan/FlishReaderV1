@@ -1,0 +1,34 @@
+[
+    {
+        "id": "10000",
+        "name": "运营之光-2.0",
+        "type": "epub",
+        "path": "/data/files/internet/运营之光-2.0.epub",
+        "cover": "/data/files/internet/cover/10000.jpeg",
+        "author": ""
+    },
+    {
+        "id": "10001",
+        "name": "黑客与画家-硅谷创业之父Paul Graham文集",
+        "type": "epub",
+        "path": "/data/files/internet/黑客与画家-硅谷创业之父PaulGraham文集.epub",
+        "cover": "/data/files/internet/cover/10001.jpg",
+        "author": ""
+    },
+    {
+        "id": "10002",
+        "name": "吴军作品",
+        "type": "epub",
+        "path": "/data/files/internet/吴军作品.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "10003",
+        "name": "重来:更为简单有效的商业思维",
+        "type": "epub",
+        "path": "/data/files/internet/重来-更为简单有效的商业思维.epub",
+        "cover": "",
+        "author": ""
+    }
+]

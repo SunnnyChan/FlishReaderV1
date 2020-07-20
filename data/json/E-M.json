@@ -1,0 +1,26 @@
+[
+    {
+        "id": "9000",
+        "name": "一本书看透信贷",
+        "type": "epub",
+        "path": "/data/files/E-M/一本书看透信贷.epub",
+        "cover": "/data/files/E-M/cover/a-book-insight-credit.jpg",
+        "author": ""
+    },
+    {
+        "id": "9001",
+        "name": "一本书看透股权架构",
+        "type": "epub",
+        "path": "/data/files/E-M/一本书看透股权架构.epub",
+        "cover": "/data/files/E-M/cover/a-book-insight-stock-right.jpg",
+        "author": ""
+    },
+    {
+        "id": "9002",
+        "name": "代谢增长",
+        "type": "epub",
+        "path": "/data/files/E-M/代谢增长论.epub",
+        "cover": "/data/files/E-M/cover/metabolic-growth.jpg",
+        "author": ""
+    }
+]

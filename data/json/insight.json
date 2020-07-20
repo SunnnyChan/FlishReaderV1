@@ -1,0 +1,26 @@
+[         
+    {
+        "id": "21",
+        "name": "黑天鹅：如何应对不可预知的未来",
+        "type": "epub",
+        "path": "/data/files/insight/黑天鹅-如何应对不可预知的未来.epub",
+        "cover": "/data/files/insight/cover/21.jpeg",
+        "author": ""
+    },
+    {
+        "id": "22",
+        "name": "从一到无穷大：科学中的事实和臆测",
+        "type": "epub",
+        "path": "/data/files/insight/从一到无穷大-科学中的事实和臆测.epub",
+        "cover": "/data/files/insight/cover/22.jpeg",
+        "author": ""
+    },
+    {
+        "id": "24",
+        "name": "定位：有史以来对美国营销影响最大的观念",
+        "type": "epub",
+        "path": "/data/files/insight/定位-有史以来对美国营销影响最大的观念.epub",
+        "cover": "/data/files/insight/cover/24.jpeg",
+        "author": ""
+    }
+]

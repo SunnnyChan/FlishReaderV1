@@ -1,0 +1,42 @@
+[
+    {
+        "id": "9050",
+        "name": "在最美宋词里邂逅最美的爱情",
+        "type": "epub",
+        "path": "/data/files/literature/在最美宋词里邂逅最美的爱情.epub",
+        "cover": "/data/files/literature/cover/9050.jpeg",
+        "author": ""
+    },
+    {
+        "id": "9051",
+        "name": "金庸作品全集",
+        "type": "epub",
+        "path": "/data/files/literature/金庸作品全集-新修版-全36册.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "9052",
+        "name": "古龙作品集",
+        "type": "epub",
+        "path": "/data/files/literature/古龙作品集.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "9053",
+        "name": "三体全集",
+        "type": "epub",
+        "path": "/data/files/literature/三体全集.epub",
+        "cover": "/data/files/literature/cover/9053.jpeg",
+        "author": ""
+    },
+    {
+        "id": "9054",
+        "name": "斗破苍穹-全集",
+        "type": "epub",
+        "path": "/data/files/literature/斗破苍穹-全集.epub",
+        "cover": "/data/files/literature/cover/9054.jpeg",
+        "author": ""
+    }      
+]

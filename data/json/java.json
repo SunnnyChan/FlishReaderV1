@@ -1,0 +1,101 @@
+[
+    {
+        "id": "1000",
+        "class" : "Java",
+        "name": "On Java 8",
+        "type": "link",
+        "path": "https://lingcoder.github.io/OnJava8/#/sidebar",
+        "cover": "",
+        "author": "Bruce Eckel"
+    },
+    {
+        "id": "1001",
+        "class" : "Java",
+        "name": "Effective Java 第三版",
+        "type": "link",
+        "path": "https://www.jianshu.com/p/fc7b69608954",
+        "cover": "/data/files/java/cover/effective-java-3.jpg",
+        "author": "Joshua Bloch"
+    },
+    {
+        "id": "1002",
+        "class" : "Java",
+        "name": "Java并发编程实战",
+        "type": "epub",
+        "path": "/data/files/java/Java并发编程实战.epub",
+        "cover": "/data/files/java/cover/java-concurrency-in-practice.jpg",
+        "author": ""
+    },
+    {
+        "id": "1003",
+        "class" : "Java",
+        "name": "深入理解Java虚拟机：JVM高级特性与最佳实践",
+        "type": "epub",
+        "path": "/data/files/java/深入理解Java虚拟机-JVM高级特性与最佳实践.epub",
+        "cover": "/data/files/java/cover/understanding-the-jvm.jpeg",
+        "author": ""
+    },
+    {
+        "id": "1004",
+        "class" : "Java",
+        "name": "Java编程的逻辑",
+        "type": "epub",
+        "path": "/data/files/java/Java编程的逻辑.epub",
+        "cover": "/data/files/java/cover/logic-of-java-programming.jpg",
+        "author": ""
+    },
+    {
+        "id": "1005",
+        "class" : "Java",
+        "name": "Java8实战",
+        "type": "epub",
+        "path": "/data/files/java/Java8实战.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "1006",
+        "class" : "Java",
+        "name": "Java多线程编程实战指南:核心篇",
+        "type": "epub",
+        "path": "/data/files/java/Java多线程编程实战指南-核心篇.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "1007",
+        "class" : "Java",
+        "name": "Java多线程编程实战指南：设计模式篇",
+        "type": "epub",
+        "path": "/data/files/java/Java多线程编程实战指南-设计模式篇.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "1008",
+        "class" : "Java",
+        "name": "Java性能权威指南",
+        "type": "epub",
+        "path": "/data/files/java/Java性能权威指南.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "1009",
+        "class" : "Java",
+        "name": "自己动手写Java虚拟机",
+        "type": "epub",
+        "path": "/data/files/java/自己动手写Java虚拟机.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "1010",
+        "class" : "Java",
+        "name": "Maven实战",
+        "type": "epub",
+        "path": "/data/files/java/Maven实战.epub",
+        "cover": "",
+        "author": ""
+    }
+]

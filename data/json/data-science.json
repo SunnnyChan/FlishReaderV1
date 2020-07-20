@@ -1,0 +1,66 @@
+[
+    {
+        "id": "7001",
+        "name": "精益数据分析",
+        "type": "epub",
+        "path": "/data/files/data-science/精益数据分析.epub",
+        "cover": "/data/files/data-science/cover/7001-lean-data-analysis.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "7002",
+        "name": "人人都会数据分析：从生活实例学统计",
+        "type": "epub",
+        "path": "/data/files/data-science/人人都会数据分析-从生活实例学统计.epub",
+        "cover": "/data/files/data-science/cover/7002.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "7003",
+        "name": "Python 数据分析基础",
+        "type": "epub",
+        "path": "/data/files/data-science/Python数据分析基础.epub",
+        "cover": "/data/files/data-science/cover/7003.jpeg",
+        "author": ""
+    },
+    {
+        "id": "7004",
+        "name": "利用Python进行数据分析",
+        "type": "epub",
+        "path": "/data/files/data-science/利用Python进行数据分析.epub",
+        "cover": "/data/files/data-science/cover/7004.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "7005",
+        "name": "Python 数据科学手册",
+        "type": "epub",
+        "path": "/data/files/data-science/Python数据科学手册.epub",
+        "cover": "/data/files/data-science/cover/7005.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "7006",
+        "name": "统计思维：程序员数学之概率统计",
+        "type": "epub",
+        "path": "/data/files/data-science/统计思维-程序员数学之概率统计.epub",
+        "cover": "/data/files/data-science/cover/7006.jpeg",
+        "author": ""
+    },
+    {
+        "id": "7007",
+        "name": "女士品茶",
+        "type": "epub",
+        "path": "/data/files/data-science/女士品茶.epub",
+        "cover": "/data/files/data-science/cover/7007.jpeg",
+        "author": ""
+    },
+    {
+        "id": "7008",
+        "name": "用数据讲故事",
+        "type": "epub",
+        "path": "/data/files/data-science/用数据讲故事.epub",
+        "cover": "/data/files/data-science/cover/7008.jpeg",
+        "author": ""
+    }
+]

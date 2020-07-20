@@ -1,0 +1,26 @@
+[
+    {
+        "id": "6000",
+        "name": "高性能MySQL-第三版",
+        "type": "epub",
+        "path": "/data/files/db/高性能MySQL-第三版.epub",
+        "cover": "/data/files/db/cover/6000.jpeg",
+        "author": ""
+    },
+    {
+        "id": "6001",
+        "name": "MySQL技术内幕-InnoDB存储引擎-第2版",
+        "type": "epub",
+        "path": "/data/files/db/MySQL技术内幕-InnoDB存储引擎-第2版.epub",
+        "cover": "/data/files/db/cover/6001.jpg",
+        "author": ""
+    },
+    {
+        "id": "6002",
+        "name": "MySQL技术内幕-SQL编程",
+        "type": "epub",
+        "path": "/data/files/db/MySQL技术内幕-SQL编程.epub",
+        "cover": "",
+        "author": ""
+    }
+]

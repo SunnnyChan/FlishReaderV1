@@ -1,0 +1,131 @@
+[
+    {
+        "id": "3000",
+        "class" : "Programming",
+        "name": "A Philosophy of Software Design",
+        "type": "epub",
+        "path": "/data/files/programming/A-Philosophy-of-Software-Design.epub",
+        "cover": "/data/files/programming/cover/3000-A-Philosophy-of-Software-Design.jpeg",
+        "author": "John Ousterhout"
+    },    
+    {
+        "id": "3001",
+        "name": "领域驱动设计：软件核心复杂性应对之道",
+        "type": "epub",
+        "path": "/data/files/programming/领域驱动设计.epub",
+        "cover": "/data/files/programming/cover/3001-DDD.jpeg",
+        "author": "Eric Evans"
+    },
+    {
+        "id": "3002",
+        "name": "重构：改善既有代码的设计-第2版",
+        "type": "epub",
+        "path": "/data/files/programming/重构-改善既有代码的设计-第2版.epub",
+        "cover": "/data/files/programming/cover/3002-Refactor.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3003",
+        "name": "冒号课堂:编程范式与OOP思想",
+        "type": "epub",
+        "path": "/data/files/programming/冒号课堂-编程范式与OOP思想.epub",
+        "cover": "/data/files/programming/cover/3003-colon-classroom.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3100",
+        "type": "epub",
+        "name": "设计模式之禅-第2版",
+        "path": "/data/files/programming/设计模式之禅-第2版.epub",
+        "cover": "/data/files/programming/cover/3100.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3101",
+        "type": "epub",
+        "name": "设计模式解析-第2版",
+        "path": "/data/files/programming/设计模式解析-第2版.epub",
+        "cover": "/data/files/programming/cover/3101.jpg",
+        "author": ""
+    },
+    {
+        "id": "3904",
+        "type": "epub",
+        "name": "自制搜索引擎",
+        "path": "/data/files/programming/",
+        "cover": "/data/files/programming/cover/3904.jpeg",
+        "author": ""
+    },
+    {
+        "id": "3905",
+        "type": "epub",
+        "name": "一站式学习C编程",
+        "path": "/data/files/programming/一站式学习C编程.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3906",
+        "type": "epub",
+        "name": "编程之美",
+        "path": "/data/files/programming/编程之美.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3907",
+        "type": "epub",
+        "name": "编程珠玑-第2版",
+        "path": "/data/files/programming/编程珠玑-第2版.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3908",
+        "type": "epub",
+        "name": "代码之髓-编程语言核心概念",
+        "path": "/data/files/programming/代码之髓-编程语言核心概念.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3909",
+        "type": "epub",
+        "name": "漫画算法-小灰的算法之旅",
+        "path": "/data/files/programming/漫画算法-小灰的算法之旅.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3910",
+        "type": "epub",
+        "name": "算法-第4版",
+        "path": "/data/files/programming/算法-第4版.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3911",
+        "type": "epub",
+        "name": "码农翻身-用故事给技术加点料",
+        "path": "/data/files/programming/码农翻身-用故事给技术加点料.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3912",
+        "type": "epub",
+        "name": "知乎收藏之程序员练级宝典",
+        "path": "/data/files/programming/知乎收藏之程序员练级宝典.epub",
+        "cover": "",
+        "author": ""
+    },
+    {
+        "id": "3913",
+        "type": "epub",
+        "name": "编个程序炒股玩儿-股票技术分析与编程实践",
+        "path": "/data/files/programming/编个程序炒股玩儿-股票技术分析与编程实践.epub",
+        "cover": "",
+        "author": ""
+    }
+]

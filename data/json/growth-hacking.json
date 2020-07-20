@@ -1,0 +1,57 @@
+[   {
+        "id": "2050",
+        "name": "增长黑客：如何低成本实现爆发式增长",
+        "type": "link",
+        "path": "https://sunnnychan.github.io/hacking-growth-by-sean-ellis/",
+        "cover": "http://pic.yupoo.com/sunnnychan/1f27b8d3/4dab12c7.jpg",
+        "author": ""
+    },
+    {
+        "id": "2000",
+        "name": "硅谷增长黑客实战笔记",
+        "type": "epub",
+        "path": "/data/files/growth-hacking/硅谷增长黑客实战笔记.epub",
+        "cover": "/data/files/growth-hacking/cover/2000-GH-practice.jpeg",
+        "author": "曲卉"
+    },
+    {
+        "id": "2001",
+        "name": "增长黑客：创业公司的用户与收入增长秘籍",
+        "type": "epub",
+        "path": "/data/files/growth-hacking/增长黑客-创业公司的用户与收入增长秘籍.epub",
+        "cover": "/data/files/growth-hacking/cover/2001-GrowthHacking.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "2002",
+        "name": "超级转化率",
+        "type": "epub",
+        "path": "/data/files/growth-hacking/超级转化率.epub",
+        "cover": "/data/files/growth-hacking/cover/2002.jpeg",
+        "author": ""
+    },
+    {
+        "id": "2003",
+        "name": "用户增长方法论",
+        "type": "epub",
+        "path": "/data/files/growth-hacking/用户增长方法论.epub",
+        "cover": "/data/files/growth-hacking/cover/2003.jpeg",
+        "author": ""
+    },    
+    {
+        "id": "2004",
+        "type": "epub",
+        "name": "用户画像：方法论与工程化解决方案",
+        "path": "/data/files/growth-hacking/用户画像.epub",
+        "cover": "/data/files/growth-hacking/cover/2004.jpeg",
+        "author": "赵宏田"
+    },    
+    {
+        "id": "2005",
+        "name": "图解网站分析：让流量倍增的网站优化方法",
+        "type": "epub",
+        "path": "/data/files/growth-hacking//图解网站分析.epub",
+        "cover": "/data/files/growth-hacking/cover/2005.jpeg",
+        "author": ""
+    }
+]
